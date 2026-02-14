@@ -17,13 +17,7 @@ Download the datasets from Google Drive and place them into the repository:
 
 ## 2) Download embeddings (wiki.en.bin)
 
-Download `wiki.en.bin` and place them into the repository:
-
-Suggested structure:
-
-repo_root/
-  datasets/
-  wiki.en.bin
+Download `wiki.en.bin` and place them into the repository.
 
 ## 3) Run a model script
 
