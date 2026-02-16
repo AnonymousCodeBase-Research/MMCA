@@ -80,9 +80,7 @@ MMCA/
 │
 ├── datasets/
 │
-├── script_MMCA.py
-│
-└── wiki.en.bin
+└── script_MMCA.py
 ```
 
 Similarly:
