@@ -156,7 +156,7 @@ Navigate to the `ML` folder and run the appropriate script.
 Files ending with:
 
 ```
-Structured
+structured
 ```
 
 are used for Structured datasets.
