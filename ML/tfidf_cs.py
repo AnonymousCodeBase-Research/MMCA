@@ -4,11 +4,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.metrics import precision_recall_fscore_support
 
-# dataset_name_list = ["datasets/Textual/AB/","datasets/Textual/AG/","datasets/Textual/DA/",
-#                      "datasets/Textual/DS/", "datasets/Textual/WA/","datasets/Dirty/DA/",
-#                      "datasets/Dirty/DS/", "datasets/Dirty/WA/"]
-
-dataset_name_list = ["datasets/PII_Textual/CC_Textual/", "datasets/PII_Textual/Senior_Textual/", "datasets/PII_Textual/SSN_Textual/"]
+dataset_name_list = ["datasets/Textual/AB/","datasets/Textual/AG/","datasets/Textual/DA/",
+                     "datasets/Textual/DS/", "datasets/Textual/WA/","datasets/Dirty/DA/",
+                     "datasets/Dirty/DS/", "datasets/Dirty/WA/"]
 
 
 for dataset_name in dataset_name_list:

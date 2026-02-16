@@ -38,12 +38,9 @@ def compute_aggregated_distance(df, vectorizer, attributes):
         aggregated_scores.append(avg_distance)
     return np.array(aggregated_scores)
 
-# # Main processing loop
-# dataset_name_list = ["datasets/Structured/AB/", "datasets/Structured/AG/", "datasets/Structured/DA/",
-#                      "datasets/Structured/DS/", "datasets/Structured/WA/"]
-
-dataset_name_list = ["datasets/PII_structured/CC_structured/", "datasets/PII_structured/Senior_structured/", "datasets/PII_structured/SSN_structured/"]
-
+# Main processing loop
+dataset_name_list = ["datasets/Structured/AB/", "datasets/Structured/AG/", "datasets/Structured/DA/",
+                     "datasets/Structured/DS/", "datasets/Structured/WA/"]
 
 for dataset_name in dataset_name_list:
     for dataset_index in range(10):

@@ -5,11 +5,8 @@ from sklearn.metrics import precision_recall_fscore_support
 from sklearn.metrics.pairwise import manhattan_distances
 
 # Structured datasets
-dataset_name_list = [
-    "datasets/Structured/AB/","datasets/Structured/AG/","datasets/Structured/DA/",
-    "datasets/Structured/DS/","datasets/Structured/WA/",
-    "datasets/PII_structured/CC_structured/","datasets/PII_structured/Senior_structured/","datasets/PII_structured/SSN_structured/"
-]
+dataset_name_list = ["datasets/Structured/AB/","datasets/Structured/AG/","datasets/Structured/DA/",
+    "datasets/Structured/DS/","datasets/Structured/WA/"]
 
 # Dynamically identify attribute pairs from dataset columns
 def infer_attribute_pairs(columns):

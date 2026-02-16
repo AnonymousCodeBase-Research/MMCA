@@ -21,7 +21,12 @@ import torch
 
 # ───────────────────────────── 1) USER CONFIG ─────────────────────────────
 DATASETS = [
-    "datasets/PII_Textual/CC_Textual/",   # ← edit your dataset roots here
+    "datasets/Structured_Textual/AB/","datasets/Structured_Textual/AG/","datasets/Structured_Textual/DA/",
+	"datasets/Structured_Textual/DS/", "datasets/Structured_Textual/WA/",
+	"datasets/Textual/AB/","datasets/Textual/AG/","datasets/Textual/DA/",
+	"datasets/Textual/DS/", "datasets/Textual/WA/",
+	"datasets/Dirty/DA/","datasets/Dirty/DS/","datasets/Dirty/WA/"
+
 ]
 
 # Choose ONE ignore policy (ER vs PII)

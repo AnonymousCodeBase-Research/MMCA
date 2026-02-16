@@ -5,7 +5,7 @@ import six
 from gensim.models.fasttext import load_facebook_vectors
 from gensim.models import KeyedVectors
 import torch
-from torchtext import data, vocab
+from torchtext.legacy import data, vocab
 
 class GensimKeyedVectors:
     def __init__(self, model_path, binary=None):

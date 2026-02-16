@@ -1,6 +1,6 @@
 from __future__ import division
 
-from torchtext import data
+from torchtext.legacy import data
 
 from ..batch import MatchingBatch
 

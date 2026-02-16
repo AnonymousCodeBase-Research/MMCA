@@ -78,7 +78,12 @@ RESULTS_CSV = os.path.join("runs", "results.csv")
 CKPT_ROOT   = os.path.join("runs", "checkpoints")
 OS_CWD      = os.getcwd()
 
-DATASETS = ["datasets/PII_Textual/CC_Textual/"]
+DATASETS = ["datasets/Structured_Textual/AB/","datasets/Structured_Textual/AG/","datasets/Structured_Textual/DA/",
+	"datasets/Structured_Textual/DS/", "datasets/Structured_Textual/WA/",
+	"datasets/Textual/AB/","datasets/Textual/AG/","datasets/Textual/DA/",
+	"datasets/Textual/DS/", "datasets/Textual/WA/",
+	"datasets/Dirty/DA/","datasets/Dirty/DS/","datasets/Dirty/WA/"
+]
 
 # ---- fixed defaults ----
 PAPER_EPOCHS  = 64

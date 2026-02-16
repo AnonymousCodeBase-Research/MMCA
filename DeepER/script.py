@@ -99,7 +99,12 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # Datasets to run
 # -----------------------------
 DATASETS = [
-    "datasets/PII_Textual/CC_Textual/", "datasets/PII_Textual/Senior_Textual/", "datasets/PII_Textual/SSN_Textual/"
+    "datasets/Structured_Textual/AB/","datasets/Structured_Textual/AG/","datasets/Structured_Textual/DA/",
+	"datasets/Structured_Textual/DS/", "datasets/Structured_Textual/WA/",
+	"datasets/Textual/AB/","datasets/Textual/AG/","datasets/Textual/DA/",
+	"datasets/Textual/DS/", "datasets/Textual/WA/",
+	"datasets/Dirty/DA/","datasets/Dirty/DS/","datasets/Dirty/WA/"
+
 ]
 
 # -----------------------------
